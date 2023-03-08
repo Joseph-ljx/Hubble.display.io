@@ -31,8 +31,7 @@ if (filter_var($php_email, FILTER_VALIDATE_EMAIL)) {
 		. '<strong style="color:#f00a77;">Name:</strong>  ' . $php_name . '<br/>'
 		. '<strong style="color:#f00a77;">Email:</strong>  ' . $php_email . '<br/>'
 		. '<strong style="color:#f00a77;">Message:</strong>  ' . $php_message . '<br/><br/>'
-		. 'This is a Confirmation mail for contact - local - test1 - Third.'
-		  'New Line'
+		. 'This is a Confirmation mail for contact - local - test1 - first.'
 		. '<br/>'
 		. 'We will contact you as soon as possible .</div>';
 		$php_sendmessage = "<div style=\"background-color:#f5f5f5; color:#333;\">" . $php_template . "</div>";
